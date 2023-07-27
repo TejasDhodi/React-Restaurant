@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+h1 {
+  color: #101A24;
+  font-family: David Libre;
+  font-size: 4.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.5rem;
+  text-align: center;
+}
+
+h3 {
+  color: #101A24;
+  text-align: center;
+  font-family: David Libre;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem;
+}
+
+h4 {
+  color: #101A24;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  text-transform: uppercase
+}
+
+p {
+  color: #5C6574;
+  text-align: left;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+a {
+  color: #101A24;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+
+.btn button {
+  color: #FFF;
+  background-color: #EA6D27;
+  padding: 10px 15px;
+  border-radius: 12px 0;
+  font-family: David Libre;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.btn_dark button {
+  color: #FFF;
+  background-color: #101A24;
+  padding: 10px 20px;
+}
+
+.section_title p {
+  text-align: center;
+}
+
+@media screen and (max-width:1025px) {
+  h1 {
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media screen and (max-width:426px) {
+
+  .nav_brand {
+    width: 8rem;
+    margin-top: -1rem;
+  }
+
+  .btn button {
+    line-height: 1rem;
+    font-size: 1rem;
+    padding: 10px 15px
+  }
+}

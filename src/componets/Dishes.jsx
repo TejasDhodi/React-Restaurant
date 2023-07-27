@@ -1,0 +1,30 @@
+import React from 'react'
+import SectionTitle from './SectionTitle'
+import MenuApi from './MenuApi'
+import DishesCard from './DishesCard'
+import"./media.css"
+
+const Dishes = () => {
+    // const showCard = 4;
+    return (
+        <>
+            <div className="dishes_section">
+                <SectionTitle description={{ h1: "Our Special Dishes", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt " }} />
+
+                <div className="cards">
+                    {
+                        MenuApi.slice(0, 4).map((e, index) => {
+                            const { Image, Name, Description, Price } = e;
+                            return (
+                               <DishesCard Name={Name} Price={Price} Description={Description} Image={Image} key={index} />
+                            )
+                        })
+                    }
+                </div>
+
+            </div>
+        </>
+    )
+}
+
+export default Dishes

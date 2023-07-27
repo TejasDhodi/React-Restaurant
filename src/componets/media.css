@@ -1,0 +1,494 @@
+@media screen and (max-width:1441px) {
+
+    html,
+    body {
+        /* width: 100%;
+        height: 100%; */
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .hero_img img:nth-child(3) {
+        left: 45rem;
+        /* top: 5rem; */
+    }
+
+    .hero_img img:nth-child(4) {
+        left: 67rem;
+    }
+
+    .cards {
+        gap: 20px;
+    }
+
+    .envents_container {
+        gap: 50px 95px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    h1 {
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+    }
+
+    .hero {
+        margin: 3% 6%;
+    }
+
+    .hero_details {
+        width: 100%;
+    }
+
+    .hero_description p {
+        width: 100%;
+    }
+
+    .hero_btn {
+        margin: 1rem 0 2rem;
+    }
+
+    .hero_img {
+        width: 100%;
+        height: 30rem;
+        text-align: right;
+    }
+
+    .hero_img img {
+        width: 85%;
+        height: 100%;
+    }
+
+    .hero_img img:nth-child(2) {
+        left: 30rem;
+    }
+
+    .hero_img img:nth-child(3) {
+        left: 30rem;
+    }
+
+    .hero_img img:nth-child(4) {
+        width: 23%;
+        height: 45%;
+        position: absolute;
+        left: 47rem;
+        top: 3.5rem;
+        transform: rotate(20deg);
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+    /* About */
+    .about_section {
+        top: 12%;
+        left: 20%;
+    }
+
+    /* Dishes */
+
+    .dishes_section {
+        padding: 5% 6%;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .dishes_card {
+        height: 14.9rem;
+        width: 17.5rem;
+    }
+
+    .dishes_card:last-child {
+        margin-top: 2rem;
+    }
+
+    .card_details {
+        transform: translateY(-120px);
+    }
+
+    .card_description h4 {
+        top: -7.5rem;
+    }
+
+    /* Events */
+    .envents_container {
+        margin: 5% 6%;
+        gap: 30px;
+    }
+
+    .events_card {
+        width: 17rem;
+    }
+
+    .event_img {
+        width: 17rem;
+    }
+
+    /* Chef Section */
+    .chef_details_container {
+        margin: 5% 6%;
+    }
+
+    .chef_img {
+        height: 35rem;
+    }
+
+    /* Footer */
+    .footer_container {
+        margin: 5% 6%;
+    }
+
+    /* Contact */
+    .contactDetailsContainer {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width:769px) {
+
+    .nav_items {
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0rem;
+        right: 100%;
+        z-index: 4;
+        background-color: aliceblue;
+        width: 100%;
+        height: 100vh;
+        transition: 300ms ease;
+    }
+
+    .toggleHamb {
+        right: 0;
+    }
+
+    .hamburger_menu {
+        display: initial;
+        width: 2rem;
+    }
+
+    .line {
+        position: relative;
+        height: 5px;
+        width: 100%;
+        background-color: #000;
+        margin: 5px 0;
+        transition: 300ms ease;
+        z-index: 5;
+    }
+
+    .toggleHamb #line1 {
+        transform: translateY(10px) rotateZ(-45deg);
+    }
+
+    .toggleHamb #line2 {
+        opacity: 0;
+    }
+
+    .toggleHamb #line3 {
+        transform: translateY(-10px) rotateZ(45deg);
+    }
+
+    .hero_img {
+        height: 25rem;
+    }
+
+    .hero_img img:nth-child(2) {
+        left: 22rem;
+        top: 21rem;
+        height: 30%;
+    }
+
+    .hero_img img:nth-child(3) {
+        left: 22rem;
+        top: 4rem;
+    }
+
+    .hero_img img:nth-child(4) {
+        height: 25%;
+        left: 36rem;
+        top: 4.5rem;
+        transform: rotate(15deg);
+    }
+
+    /* About */
+    .about_section {
+        left: 9%;
+    }
+
+    /* Dishes */
+
+
+    .cards {
+        gap: 0 30px;
+    }
+
+    .dishes_card {
+        width: 20rem;
+    }
+
+    /* Chef Section */
+    .chef_img {
+        height: 35rem;
+    }
+
+    /* Events */
+    .events_card {
+        width: 20rem;
+    }
+
+    .event_img {
+        width: 20rem;
+    }
+
+    /* footer */
+    .footer_container {
+        flex-direction: column;
+    }
+
+    .footer_links {
+        margin: 1rem 0;
+        justify-content: flex-start;
+        gap: 75px;
+    }
+
+    /* Contact */
+    .contactContainer {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .section_title {
+        margin: 5% 6%;
+    }
+    .section_title h1 {
+        text-align: center;
+    }
+    
+    .hero {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .hero_title h1 {
+        text-align: center;
+    }
+
+    .hero_btn,
+    .social_icons {
+        justify-content: center;
+    }
+
+    .hero_img {
+        width: 75%;
+    }
+
+    .hero_img img {
+        width: 100%;
+    }
+
+    .hero_img img:nth-child(2) {
+        top: 50rem;
+        left: 0;
+        width: 10rem;
+    }
+
+    .hero_img img:nth-child(3) {
+        top: 31rem;
+        left: 0;
+        width: 13rem;
+    }
+
+    .hero_img img:nth-child(4) {
+        top: 33rem;
+        left: 15.5rem;
+        width: 10rem;
+    }
+
+    /* About */
+
+    .about_section {
+        top: 7%;
+        left: 2%;
+        width: 25.5rem;
+    }
+
+    .about_container {
+        padding: 20px;
+    }
+
+    /* Dishes */
+
+    .dishes_card {
+        margin-top: 4rem;
+    }
+
+    /* Chef */
+
+    .chef_details_container .section_title p {
+        text-align: center;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .chef_details_container {
+        flex-direction: column;
+    }
+
+    .chefs, .chef_btn {
+        justify-content: center;
+    }
+
+    .chef_img {
+        height: 17rem;
+    }
+
+    .c1 {
+        height: 17rem;
+        width: 13rem;
+        margin: 1rem auto;
+        display: block;
+    }
+
+    .c2 {
+        display: none;
+    }
+
+    /* Footer */
+    .footer_links {
+        gap: 70px;
+    }
+
+    .links .social_icons {
+        flex-direction: column;
+    }
+
+    .links .social_icons svg {
+        font-size: 2rem;
+        padding: 7px;
+    }
+
+    /* Connect */
+    .contactForm, .contactDetailsContainer {
+        width: 22rem;
+    }
+
+    .contactDetails {
+        gap: 20px
+    }
+}
+@media screen and (max-width: 415px) {
+    .hero_img img:nth-child(4) {
+        left: 13.5rem;
+    }
+
+   
+}
+
+@media screen and (max-width:385px) {
+
+    .hero_img img:nth-child(4) {
+        left: 12.5rem;
+    }
+
+    /* About */
+
+    .about_section {
+        top: 2%;
+        width: 22.5rem;
+    }
+
+    /* Coonect */
+    .contactForm {
+        width: 20rem;
+        padding: 20px;
+    }
+
+    .contactDetailsContainer {
+        padding: 40px 20px;
+        height: 28rem;
+    }
+
+    /* Footer */
+    .footer_links {
+        gap: 48px;
+    }
+}
+
+@media screen and (max-width:361px) {
+    .hero_img img:nth-child(4) {
+        left: 11rem;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .hero_img {
+        width: 85%;
+    }
+
+    .hero_img img:nth-child(3) {
+        top: 35rem;
+        left: -2rem;
+        height: 11rem;
+        width: 11rem;
+        transform: rotate(-50deg);
+    }
+
+    .hero_img img:nth-child(4) {
+        left: 9.3rem;
+        top: 34rem;
+        transform: rotate(-10deg);
+    }
+
+    /* Events */
+    .events_card {
+        width: 18rem;
+    }
+
+    .event_img {
+        width: 17.6rem;
+    }
+
+    /* Chef */
+    .chefs {
+        gap: 10px;
+    }
+
+    /* Footer */
+    .footer_links {
+        gap: 24px;
+    }
+
+    /* about */
+    .about_container {
+        padding: 10px;
+    }
+
+    .about_section {
+        top: 7%;
+        width: 19.2rem;
+    }
+
+    .about_title h1 {
+        font-size: 2rem;
+    }
+
+    .about_description p {
+        font-size: 0.7rem;
+    }
+
+    /* Connect */
+    .contactForm, .contactDetailsContainer {
+        width: 18rem;
+    }
+
+    .contactDetails .contactInfo p {
+        color: #fff;
+        font-size: 1rem;
+    }
+}

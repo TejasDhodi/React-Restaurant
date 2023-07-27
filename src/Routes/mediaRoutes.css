@@ -1,0 +1,74 @@
+@media screen and (max-width:1025px) {
+    .menu_container {
+        padding: 5% 6%;
+    }
+    
+    .menu_nav {
+        width: 100%;
+    }
+    
+    .menu_nav button {
+        font-size: 1.3rem;
+    }
+    
+    .menu_cards_container {
+        gap: 0;
+    }
+    
+    .menu_cards_container .dishes_card {
+        width: 16rem;
+        height: 18rem;
+    }
+    
+    .dishes_card:last-child {
+        margin-top: 6rem;
+    }
+    
+    .menu_cards_container .dishes_card:nth-child(8)  .card_details {
+        transform: translateY(-140px);
+    }
+
+    .menu_cards_container .dishes_card .card_description h4 {
+        top: -11rem;
+        right: -2.5rem;
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (max-width:769px) {
+
+    .menu_nav button {
+        font-size: 0.9rem;
+    }
+
+    .menu_cards_container {
+        gap: 0 30px;
+    }
+
+    .menu_cards_container .dishes_card {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .menu_nav {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .menu_nav {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .menu_nav {
+        gap: 10px;
+    }
+
+    .menu_cards_container .dishes_card .card_description h4 {
+        right: -2rem;
+    }
+}

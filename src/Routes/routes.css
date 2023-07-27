@@ -1,0 +1,48 @@
+.menu_container {
+    padding: 5% 10%;
+    background-color: #eff6fd;
+}
+
+.menu_cards_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.menu_cards_container .dishes_card {
+    width: 20rem;
+    height: 17rem;
+}
+
+.menu_cards_container .dishes_card .card_details{
+    transform: translateY(-120px);
+}
+
+.menu_cards_container .dishes_card .card_description h4{
+    top: -9rem;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.menu_nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EA6D27;
+    border-radius: 20px;
+}
+
+.menu_nav button {
+    font-size: 1.5rem;
+    background: none;
+    color: #fff;
+}
+
+.menu_nav button.color {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
