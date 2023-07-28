@@ -7,7 +7,7 @@ const Events = () => {
   return (
     <>
       <div className="event_section" id='event'>
-        <SectionTitle description={{h1: "Events", p:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo natus illo sint eligendi maxime nulla omnis consectetur nihil necessitatibus? Enim." }} />
+        <SectionTitle description={{h1: "Events", p:"Experience unforgettable moments in our enchanting venue, where every event is crafted with elegance and precision." }} />
         <div className="envents_container">
             {EventsData.map((e, index) => {
                 const {Image, Title, Description} = e;

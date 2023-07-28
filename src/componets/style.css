@@ -59,7 +59,7 @@ body {
 
 .hero_description p {
     margin: 1rem 0;
-    width: 70%;
+    width: 80%;
     text-align: justify;
 }
 
@@ -98,30 +98,8 @@ body {
     width: 23%;
     height: 45%;
     position: absolute;
-    left: 42rem;
+    left: 43rem;
     top: 20rem;
-}
-
-.hero_img img:nth-child(3) {
-    width: 23%;
-    height: 45%;
-    position: absolute;
-    left: 50rem;
-    top: 5rem;
-    transform: rotate(-45deg);
-    z-index: -1;
-    opacity: 0.5;
-}
-
-.hero_img img:nth-child(4) {
-    width: 23%;
-    height: 45%;
-    position: absolute;
-    left: 70rem;
-    top: 5rem;
-    transform: rotate(15deg);
-    z-index: -1;
-    opacity: 0.5;
 }
 
 /* Dishes section */
@@ -157,7 +135,10 @@ body {
 
 .card_img img {
     height: 70%;
+    width: 60%;
     transform: translateY(-70px);
+    border-radius: 50%;
+    box-shadow: 0 0 10px #000;
 }
 
 .card_details {
@@ -189,7 +170,7 @@ body {
 
 .chef_details_container .section_title p {
     text-align: justify;
-    width: 70%;
+    width: 60%;
     margin: 2rem 0;
 }
 

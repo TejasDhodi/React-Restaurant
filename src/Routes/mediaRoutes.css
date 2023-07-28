@@ -1,3 +1,13 @@
+@media screen and (max-width:1281px) {
+    .menu_nav {
+        width: 100%;
+    }
+
+    .menu_cards_container {
+        gap: 0 25px;
+    }
+}
+
 @media screen and (max-width:1025px) {
     .menu_container {
         padding: 5% 6%;
@@ -35,6 +45,20 @@
     }
 }
 
+@media screen and (max-width:835px) {
+    .menu_nav button {
+        font-size: 1rem;
+    }
+
+    .menu_cards_container .dishes_card {
+        width: 20rem;
+    }
+
+    .menu_cards_container .dishes_card:nth-child(8)  .card_details {
+        transform: translateY(-120px);
+    }
+}
+
 @media screen and (max-width:769px) {
 
     .menu_nav button {
@@ -50,16 +74,25 @@
     }
 }
 
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 481px) {
     .menu_nav {
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .menu_cards_container {
+        gap: 20px 30px;
     }
 }
 
 @media screen and (max-width: 376px) {
     .menu_nav {
         gap: 15px;
+    }
+
+    .contactDetailsContainer {
+        width: 20rem;
     }
 }
 

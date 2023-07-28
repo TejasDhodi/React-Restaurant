@@ -36,7 +36,7 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div className="book_btn">
-                    <Link to="/contact" className='btn'><button>Book Table</button></Link>
+                    <NavLink to="/contact" className='btn'><button>Book Table</button></NavLink>
                 </div>
                 <div className={showNav ? "hamburger_menu toggleHamb": "hamburger_menu"} onClick={ham}>
                     <div className="line" id="line1"></div>

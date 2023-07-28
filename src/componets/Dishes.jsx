@@ -9,7 +9,7 @@ const Dishes = () => {
     return (
         <>
             <div className="dishes_section">
-                <SectionTitle description={{ h1: "Our Special Dishes", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt " }} />
+                <SectionTitle description={{ h1: "Our Special Dishes", p: "Indulge in our culinary masterpieces, where every dish is a symphony of flavors and a feast for the senses" }} />
 
                 <div className="cards">
                     {

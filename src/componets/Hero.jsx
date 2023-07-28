@@ -30,8 +30,6 @@ const Hero = () => {
                 <div className="hero_img">
                     <img src="Images/main.png" alt="Hero Image" />
                     <img src="Images/dish-2.png" alt="Hero Image"/>
-                    <img src="Images/Tropic-01.png" alt="Hero Image" className='common_img' />
-                    <img src="Images/Tropic-02.png" alt="Hero Image" className='common_img'/>
                 </div>
 
             </div>

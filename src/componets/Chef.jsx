@@ -12,7 +12,7 @@ const Chef = () => {
             <div className="chef_details_container">
                 <div className="chef_Details">
                     <div className="chef_title">
-                        <SectionTitle description={{ h1: "Our Expects Chef", p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }} />
+                        <SectionTitle description={{ h1: "Our Expects Chef", p: "Meet our visionary chef, whose culinary artistry creates unforgettable gastronomic experiences that elevate the senses. Expert Chefs Crafting Culinary Perfection: Elevate Your Dining Experience Today!" }} />
                     </div>
 
                     <div className="chef_img c1">
