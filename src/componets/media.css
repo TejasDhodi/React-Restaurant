@@ -292,7 +292,7 @@
     }
 
     .hero {
-        background-image: url("Images/main.png");
+        background-image: url(../../public/Images/main.png);
         background-position: center;
         margin: 0;
         height: 90vh;
@@ -433,6 +433,18 @@
     /* Footer */
     .footer_links {
         gap: 48px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .chefs {
+        gap: 20px;
+    }
+
+    .about_section {
+        top: 4%;
+        left: 8%;
+        width: 19rem;
     }
 }
 
